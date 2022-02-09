@@ -10,7 +10,9 @@
    html {
      scroll-behavior: smooth;
    }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
    /* FINE UTILITY */
 
 .cont-menu{
@@ -32,7 +34,7 @@ header a{
     position: absolute;
     display: inline-block;
     top: 30%;
-    left: 10%;
+    left: 5%;
 }
 
 .menu{
@@ -41,16 +43,16 @@ header a{
     left: 30%;
 }
 
-
-
 .accesso{
     position: absolute;
-    height: 30px;
-    width: 60px;
+    padding: 10px 10px;
+    /* width: auto; */
     background-color: white;
     border-radius: 15px;
     text-align: center;
     line-height: 150%;
     left: 90%;
     top: 30%;
+    font-size: 0.5em;
 }
+
