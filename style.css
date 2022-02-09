@@ -1,0 +1,56 @@
+*{Padding: 0;
+  Margin: 0;
+  Box-sizing: border-box}
+       
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;}
+   
+   html {
+     scroll-behavior: smooth;
+   }
+
+   /* FINE UTILITY */
+
+.cont-menu{
+    padding: 5px;
+    background-color: aqua;
+    height: 100px;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.logo{
+    position: absolute;
+    display: inline-block;
+    top: 30%;
+    left: 10%;
+}
+
+.menu{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+
+
+.accesso{
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 150%;
+    left: 90%;
+    top: 30%;
+}
