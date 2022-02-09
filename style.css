@@ -35,7 +35,7 @@ header{
 
 header a{
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 1em;
     color: white;
 }
@@ -48,8 +48,8 @@ header a{
 
 .menu{
     position: absolute;
-    top: 30%;
-    left: 38%;
+    top: 38%;
+    left: 30%;
 }
 
 .accesso{
@@ -76,25 +76,46 @@ header a{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    font-weight: bold;
+    
 }
 .first-text{
     position: absolute;
-    width: 500px;
-    height: 200px;
-    left: 20%;
-    top: 40%;
+    width: 650px;
+    height: 350px;
+    left: 33%;
+    top: 16%;
     text-align: center;
     color: white;
+    font-size: 2.2em;
+}
+
+.first-text span{
+    font-size: 0.4em;
 }
 
 .anchorfirst a{
-    color: white;
     text-decoration: none;
+    margin-left: 30px;
 }
 
 .anchorfirst{
     position: absolute;
     display: inline-block;
     top: 60%;
-    left: 20%;
+    left: 34%;
 }
+
+.buttomfirst{
+    padding: 15px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    font-size: 1.3em;
+}
+
+.anchorfirst a:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
